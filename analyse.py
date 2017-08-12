@@ -46,13 +46,13 @@ args = parser.parse_args()
 # Authenticate
 
 # create OAuth Handler
-consumer_key ="TgnS9EwvK5fncAus4yZ1gVl4j"
-consumer_secret = "DHpSNxYonXfNG5kSllWSMpMI0hf41r7VLVR9lDo3ZLCJSvQAXt"
+consumer_key =""
+consumer_secret = ""
 oauth_handler = tweepy.OAuthHandler(consumer_key, consumer_secret)
 
 # set access token
-access_token = "853325142700597248-bKx7VDrCzPtnX7acGwr5mm5UxpxSHBI"
-access_token_secret = "U4XcPGTINmcfJL06IwSJTIIhwdRWz07n680a2ZFdZv6UP"
+access_token = ""
+access_token_secret = ""
 oauth_handler.set_access_token(access_token, access_token_secret)
 
 # authenticate
